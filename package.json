@@ -1,0 +1,23 @@
+{
+  "name": "react-workspaces",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build:header && npm run build:footer && npm run build:main-app",
+    "build:header": "npm run build --prefix packages/header",
+    "build:footer": "npm run build --prefix packages/footer",
+    "build:main-app": "npm run build --prefix packages/main-app"
+  },
+  "dependencies": {
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^6.1.0"
+  }
+}
