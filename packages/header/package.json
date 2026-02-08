@@ -2,6 +2,7 @@
   "name": "@react-workspaces/header",
   "version": "1.0.0",
   "type": "module",
+  "main": "index.tsx",
   "scripts": {
     "build": "tsc"
   },

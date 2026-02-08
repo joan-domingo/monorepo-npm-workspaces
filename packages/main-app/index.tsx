@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from 'header'
-import Footer from 'footer'
+import Header from '@react-workspaces/header'
+import Footer from '@joan-domingo/monorepo-footer'
 
 const App = () => (
     <div>

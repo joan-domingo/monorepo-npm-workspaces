@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
     "dependencies": {
-      "footer": "2.0.0",
-      "header": "1.0.0"
+      "@joan-domingo/monorepo-footer": "2.0.0",
+      "@react-workspaces/header": "1.0.0"
     }
   }
