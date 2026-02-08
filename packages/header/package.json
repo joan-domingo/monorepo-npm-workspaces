@@ -1,5 +1,5 @@
 {
-  "name": "@react-workspaces/header",
+  "name": "@joan-domingo/monorepo-header",
   "version": "1.0.0",
   "type": "module",
   "main": "index.tsx",
@@ -8,5 +8,12 @@
   },
   "peerDependencies": {
     "react": ">=17.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joan-domingo/monorepo-npm-workspaces.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }

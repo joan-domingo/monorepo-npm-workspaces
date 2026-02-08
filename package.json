@@ -10,7 +10,8 @@
     "build:header": "npm run build --prefix packages/header",
     "build:footer": "npm run build --prefix packages/footer",
     "build:main-app": "npm run build --prefix packages/main-app",
-    "publish:footer": "npm run build:footer && npm publish -w @joan-domingo/monorepo-footer"
+    "publish:footer": "npm run build:footer && npm publish -w @joan-domingo/monorepo-footer",
+    "publish:header": "npm run build:header && npm publish -w @joan-domingo/monorepo-header"
   },
   "dependencies": {
     "react": "18.0.0",
